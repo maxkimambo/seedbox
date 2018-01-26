@@ -4,11 +4,11 @@ services:
     image: docker pull dperson/transmission
     volumes: 
       - /data/downloads/Downloads:/var/lib/transmission-daemon/downloads
-      -/data/downloads/Incomplete:/var/lib/transmission-daemon/incomplete 
+      - /data/downloads/Incomplete:/var/lib/transmission-daemon/incomplete 
     environment: 
       - TRUSER=$seedbox_user
       - TRPASSWD=$seedbox_password
-      
+
 
 
 
