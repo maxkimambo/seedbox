@@ -8,6 +8,9 @@ services:
     environment: 
       - TRUSER=$seedbox_user
       - TRPASSWD=$seedbox_password
+    ports: 
+      - 9091:9091 
+      
 
 
 
