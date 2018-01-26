@@ -1,7 +1,7 @@
 version: '3'
 services: 
   seedbox: 
-    image: docker pull dperson/transmission
+    image: dperson/transmission
     volumes: 
       - /data/downloads/Downloads:/var/lib/transmission-daemon/downloads
       - /data/downloads/Incomplete:/var/lib/transmission-daemon/incomplete 
